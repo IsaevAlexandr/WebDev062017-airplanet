@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Roboto; 
+    src: url(../fonts/Roboto/Roboto-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/background/intro-background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	
+	position: absolute;
+
+	background-color: rgba( 255, 255, 255, .6);
+
+	/*
+	картинка 1920x1280. Cвойство ниже для того, что бы было похоже на 
+	макет. Если увеличить масштаб в блаузере, изображение, естественно, 
+	едет. Есть ли возможность задать правильный центр не обрезая картинку?
+	*/
+
+}
+
+.main-block {
+	height: 270px;
+	width: 207px;
+
+	/*центрируем блок*/
+	position: relative;
+	top: 50%;
+	margin-top: -135px;
+	left: 50%;
+	margin-left: -103px;
+
+	text-align: center;
+}
+
+.main-block__link {
+	display: block;
+	width: 207px;
+	height: 45px;
+	border-radius: 3px;
+	border: 1px solid #1c5bc3;
+	margin-top: 35px;
+	text-decoration: none;
+}
+
+.main-block__link-text {
+	vertical-align: center;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+.main-block__link-image {
+	width: 15px;
+	height: 14px;
+	margin-left: 9px;
+
+	/*выравнимаем иконку ссылки*/
+	position: relative;
+	top: 2px;
+}
+
+.main-block__link:hover {
+	background-color: #1c5bc3;
+}
+
