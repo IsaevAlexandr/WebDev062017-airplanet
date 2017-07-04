@@ -22,6 +22,13 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 html {
@@ -35,8 +42,8 @@ body {
 }
 
 .container {
-	max-width: 1100px;
-	height: 100%;
+	width: 1100px;
+	min-height: 100%;
 	margin: 0 auto;
 }
 
@@ -64,6 +71,7 @@ body {
 	position: absolute;
 	top: 19px;
 	right: 21px;
+	text-align: right;
 }
 
 .contacts__phone {
@@ -90,12 +98,16 @@ body {
 .section {
 	width: 100%;
 	min-height: 100%;
-	overflow: hidden;
 	position: relative;
-	margin-top: -76px;
+	overflow: hidden;
 	font-size: 0;
 }
 
+.section:after {
+	content: "";
+	display: block;
+	height: 76px;
+}
 
 			/*SIDEBAR*/
 .sidebar {
@@ -148,7 +160,7 @@ body {
 }
 			/*MAIN*/
 .content {
-	float: right;
+	float: left;
 	width: 900px;
 }
 
@@ -167,7 +179,7 @@ body {
 	font-style: italic;
 }
 .main__title {
-	margin-top: 28px;
+	margin-top: 20px;
 	color: #221f1f;
 	font-family: Roboto;
 	font-size: 49px;
@@ -182,11 +194,13 @@ body {
 .main__item {
 	border-bottom: 2px solid #f5f5f5;
 	padding-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .main__item-img {
 	border-radius: 50%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .main__item-text {
@@ -196,11 +210,11 @@ body {
 	font-size: 14px;
 	font-weight: 300;
 	width: 695px;
+	vertical-align: top;
 }
 
 
 .main__item-date {
-	display: block;
 	color: #656464;
 	font-size: 14px;
 	font-weight: 300;
@@ -227,7 +241,8 @@ body {
 
 			/*FOOTER*/
 .footer {
-	width: 100%;
+	width: 1100px;
+	margin: 0 auto;
 	height: 76px;
 	background-color: #1c5bc3;
 	overflow: hidden;
