@@ -1,0 +1,47 @@
+.header {
+	width: 100%;
+	height: 76px;
+	background-color: #1c5bc3;
+	padding: 20px 0;
+}
+
+.header__left, .header__right {
+	float: left;
+	width: 50%;
+	padding: 0 20px;
+}
+
+.header__right {
+	text-align: right;
+}
+
+
+.logo__link {
+	display: inline-block;
+}
+
+.contacts {
+	display: inline-block;
+}
+
+.contacts__phone {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: -5px;
+}
+
+.contacts__shedule {
+	display: block;
+	text-decoration: none;
+	opacity: 0.7;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: underline;
+}
