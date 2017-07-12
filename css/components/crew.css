@@ -1,0 +1,70 @@
+.team {
+	width: 100%;
+	height: 100%;
+}
+
+.team__title {
+	color: #221f1f;
+	font-family: Roboto;
+	font-size: 49px;
+	font-weight: 700;
+}
+.team__list {
+
+}
+
+.team__item {
+	float: left;
+	width: 290px;
+	/*padding-right: 45px;*/
+	margin-bottom: 45px;
+}
+
+.team__sell {
+	width: 250px;
+	text-align: center;
+}
+.team__foto {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.team__name {
+	font-family: Roboto;
+
+	color: #221f1f;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+
+.team__role {
+	color: #1c5bc3;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	margin-bottom: 7px;
+}
+
+.team__discription {
+	color: #221f1f;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+}
+/* Style for "Белов Алек" */
+width: 256px;
+height: 148px;
+font-family: Roboto;
+line-height: 21px;
+/* Text style for "Белов Алек" */
+color: #221f1f;
+font-size: 18px;
+font-weight: 700;
+/* Text style for "Главный пи" */
+color: #1c5bc3;
+font-size: 14px;
+font-weight: 700;
+/* Text style for "Высокий пр" */

@@ -1,8 +1,4 @@
-.sidebar {
-	width: 200px;
-	float: left;
-	padding-right: 10px;
-}
+
 
 .menu__list {
 	max-width: 180px;
@@ -18,7 +14,6 @@
 .menu__link {
 	text-decoration: none;
 	display: block;
-	margin-bottom: 32px;
 	letter-spacing: 2px;
 	font-size: 0;
 }
@@ -87,3 +82,4 @@
 .menu__item.active .menu__icon--feed{
 	background-image: url(../../img/icons/feed-icon-hovered.png);
 }
+

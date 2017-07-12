@@ -66,6 +66,7 @@
 }
 
 .socials__link {
+	display: inline-block;
 	
 }
 

@@ -1,7 +1,21 @@
+.sidebar {
+	width: 200px;
+	float: left;
+	padding-right: 10px;
+}
+
 .content {
 	width: 900px;
 	float: left;
 }
 
+.title {
+	margin-top: 17px;
+	color: #221f1f;
+	font-family: Roboto;
+	font-size: 49px;
+	font-weight: 700;
+	margin-bottom: 38px;	
+}
 
 

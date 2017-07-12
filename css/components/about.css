@@ -90,22 +90,26 @@
 	text-align: center;
 }
 
-.partners-item {
+.partners__item {
 	margin-top: 50px;
 	display: inline-block;
 	vertical-align: bottom;
 }
 
-.partners-item--left {
+.partners__item--left {
 	float: left;
 }
 
-.partners-item--right {
+.partners__item--right {
 	float: right;
 }
 
-.partners-link {
-
+.partners__link {
+	filter: grayscale(1);
+	display: inline-block;
+}
+.partners__link:hover {
+	filter: initial;
 }
 
 .partners-img {

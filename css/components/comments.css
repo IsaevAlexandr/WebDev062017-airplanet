@@ -1,7 +1,4 @@
-.content {
-	float: left;
-	width: 900px;
-}
+
 
 .main__nav {
 	margin-top: 44px;
@@ -17,14 +14,7 @@
 	text-decoration: underline;
 	font-style: italic;
 }
-.main__title {
-	margin-top: 17px;
-	color: #221f1f;
-	font-family: Roboto;
-	font-size: 49px;
-	font-weight: 700;
-	margin-bottom: 38px;	
-}
+
 
 .main__list {
 	list-style-type: none;
