@@ -117,36 +117,58 @@
                         <li class="paginator__item">7</li>
                     </ul>
                     <div class="paginator__more"></div>
-                    <!-- &#60;&#62; unicode icons!-->
                 </div>
+                <!-- FORM -->
+                <div class="form" method="GET">
+                    <div class="form__title">Оставить отзыв</div>
+                      
+                    <div class="form_row clearfix">
+                        <lable class="form__cell">
+                            <div class="form__cell-title">Ваше имя</div>
+                            <input type="text" class="form__input-text" placeholder="Андрей">
+                        </lable>
+                        <lable class="form__cell">
+                            <div class="form__cell-title">Ссылка на профиль VK</div>
+                            <input type="text" class="form__input-text" placeholder="vk.com/example">
+                        </lable>
+                    </div>
 
-                <div class="form">
-                    <div class="form__header">Оставить отзыв
+                    <div class="form_row">
+                        <lable class="form__cell-textarea">
+                            <div class="form__cell-title">Текст отзыва</div>
+                            <textarea class="form__input-textarea" placeholder="Текст отзыва"></textarea>
+                        </lable>
                     </div>
-                    <div class="form__filds">
-                        <form class="form__elem">
-                            <label class="form__label">
-                                <div class="form__label-text">Ваше имя</div>
-                                <input type="text" class="form__label-input" placeholder="Андрей">
-                            </label>
-    
-                            <label class="form__label">
-                                <div class="form__label-text">Ссылка на профиль VK</div>
-                                <input type="text" class="form__label-input" placeholder="vk.com/example">
-                            </label>
-    
-    
-                            <label class="form__label">
-                                <div class="form__label-text">Текст отзыва</div>
-                                <input type="textarea" class="form__label-textarea" placeholder="Мне понравилось">
-                            </label>
-                        </form>
+
+                    <div class="form__row-btns clearfix">
+                        
+                        <div class="form__controls">
+                            
+
+                            <div class="form__controls-btns">
+                            <div class="form__controls-title">Отображать фото в отзыве?</div>
+                                <label class="form__radio">
+                                    <input type="radio" name="name" class="form__radio-elem">
+                                    <div class="form__radio-fake"></div>
+                                    <div class="form__radio-text">Да</div>
+                                </label>
+                                <label class="form__radio">
+                                    <input type="radio" name="name" class="form__radio-elem">
+                                    <div class="form__radio-fake"></div>
+                                    <div class="form__radio-text">Нет</div>
+                                </label>
+                            </div>
+                            <div class="form__subnit-btn">
+                                <div class="form__btn-container">
+                                    <input type="submit" class="form__btn" value="Отправить">
+                                    <div class="form__btn-image"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                
+
+                </div>        
             </main>
-            <!-- </div> -->
         </section>
     </div>
     
