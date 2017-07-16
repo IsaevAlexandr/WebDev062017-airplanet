@@ -57,37 +57,79 @@ body {
 
 .main-block__link {
 	display: block;
-	width: 207px;
-	height: 45px;
+	width: 204px;
+	height: 43px;
 	border-radius: 3px;
 	border: 1px solid #1c5bc3;
-	margin-top: 35px;
+	margin-top: 37px;
 	text-decoration: none;
+	animation-name: fadeInUpBig;
+	animation-duration: 1.5s;
 }
 
 .main-block__link-text {
 	vertical-align: center;
-	color: #ffffff;
+	color: #1c5bc4;	
 	font-family: Roboto;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 45px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 	text-decoration: none;
+	vertical-align: middle;
 }
 
 .main-block__link-image {
 	width: 15px;
 	height: 14px;
-	margin-left: 9px;
-
-	/*выравнимаем иконку ссылки*/
-	position: relative;
-	top: 2px;
+	margin-left: 2px;
+	background-image: url(../img/icons/main-icon-blue.png);
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .main-block__link:hover {
 	background-color: #1c5bc3;
 }
 
+.main-block__link:hover .main-block__link-text {
+	color: #fff;
+}
+
+.main-block__link:hover .main-block__link-image {
+	background-image: url(../img/icons/main-icon-link.png);
+}
+
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUpBig {
+  ;
+}
+
+.main-block__logo {
+	animation-name: fadeInDownBig;
+	animation-duration: 1s;
+}

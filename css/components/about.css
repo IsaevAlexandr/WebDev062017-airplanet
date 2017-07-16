@@ -6,7 +6,7 @@
 	display: block;
 	width: 879px;
 	height: 354px;
-	margin-bottom: 31px;
+	margin-bottom: 26px;
 }
 
 .about__header {
@@ -50,6 +50,7 @@
 .reserv__block {
 	width: 700px;
 	background-color: #1c5bc3;
+	padding: 10px 30px;
 }
 
 .reserv__text {
@@ -58,9 +59,6 @@
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 30px;
-	padding-top: 20px;
-	padding-left: 30px;
-	padding-bottom: 16px;
 }
 
 .reserv__link {
@@ -73,45 +71,58 @@
 	text-decoration: underline;
 }
 
-.partners {
+.partners__title {
 	color: #221f1f;
 	font-family: Roboto;
 	font-size: 49px;
 	font-weight: 700;
-	margin-top: 87px;
-	/*line-height: 38px;*/
+	margin-top: 58px;
+	margin-bottom: 33px;
 }
 
 .partners__list {
+	display: block;
 	width: 700px;
 	font-size: 0;
 	text-align: justify;
-	margin-bottom: 40px;
+	margin-bottom: 12px;
 	text-align: center;
 }
 
 .partners__item {
-	margin-top: 50px;
+	margin-bottom: 60px;
 	display: inline-block;
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 
 .partners__item--left {
 	float: left;
+	height: 64px;
+}
+
+.partners__item--left:before, .partners__item--right:before {
+	content: "";
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .partners__item--right {
 	float: right;
+	height: 64px;
 }
 
 .partners__link {
 	filter: grayscale(1);
 	display: inline-block;
+	vertical-align: middle;
 }
 .partners__link:hover {
 	filter: initial;
+	transition: 1s;
 }
 
 .partners-img {
-
+	display: inline-block;
+	vertical-align: middle;
 }

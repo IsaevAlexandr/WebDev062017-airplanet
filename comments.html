@@ -5,12 +5,26 @@
     <title>Airplanet-comments</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1140">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!--[if lt IE 10]>
+
+    <p class="chromeframe">Похоже, что ты используешь
+
+    устаревший браузер, друг. Пожалуйста, <a href="http://
+
+    browsehappy.com/">скачай новый браузер абсолютно
+
+    бесплатно</a> или <a href="http://www.google.com/
+
+    chromeframe/?redirect=true">активируй Google Chrome Frame</
+
+    a></p>
+
+    <![endif]-->
+
     <div class="wrapper">
-        <!-- HEADER -->
         <header class="header">
             <div class="container clearfix">
                 <div class="header__left">
@@ -21,16 +35,20 @@
                 <div class="header__right">
                     <div class="contacts">
                         <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
-                        <a href="#" class="contacts__shedule">График работы</a>
+                        <div class="contacts__elem">
+                            <a href="#" class="contacts__shedule">График работы</a>
+                            <div class="contacts__dropdown">
+                                <div class="contacts__time">пн-вс: 09:00-20:00</div>
+                                <div class="contacts__lunch">обед: 14:00-14:30</div>
+                            </div> 
+                        </div>
+
                     </div>
                 </div>
             </div>
         </header>
-
-        <!-- CENTER -->
         <section class="container clearfix">
-            <!-- <div class="container clearfix"> -->
-                <aside class="sidebar">
+            <aside class="sidebar">
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item"><a href="about.html" class="menu__link">
@@ -48,9 +66,7 @@
                     </ul>
                 </nav>
             </aside>
-
-
-                <main class="content">
+            <main class="content">
                 <div class="main__nav">
                     <a href="about.html" class="main__nav-link">Главная</a> / Отзывы
                 </div> 
@@ -66,7 +82,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="main__item">
                         <img src="img/content/old-asian.jpg" alt="tourist" class="main__item-img" width="160" height="160">
                         <div class="main__item-text">
@@ -77,7 +92,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="main__item">
                         <img src="img/content/vector-smart-object.png" alt="no-photo" class="main__item-img" width="160" height="160">
                         <div class="main__item-text">
@@ -88,7 +102,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="main__item main__item--no-bot-border">
                         <img src="img/content/grendma.jpg" alt="woman" class="main__item-img" width="160" height="160">
                         <div class="main__item-text">
@@ -100,13 +113,11 @@
                         </div>
                     </li>
                 </ui>
-
                 <div class="paginator">
                     <div class="paginator__page-nomber">
                         Страница 1 из 7
                     </div>
                     <div class="paginator__less"></div>
-
                     <ul class="paginator__list">
                         <li class="paginator__item">1</li>
                         <li class="paginator__item">2</li>
@@ -118,8 +129,7 @@
                     </ul>
                     <div class="paginator__more"></div>
                 </div>
-                <!-- FORM -->
-                <div class="form" method="GET">
+                <form class="form" method="GET">
                     <div class="form__title">Оставить отзыв</div>
                       
                     <div class="form_row clearfix">
@@ -132,19 +142,14 @@
                             <input type="text" class="form__input-text" placeholder="vk.com/example">
                         </lable>
                     </div>
-
                     <div class="form_row">
                         <lable class="form__cell-textarea">
                             <div class="form__cell-title">Текст отзыва</div>
-                            <textarea class="form__input-textarea" placeholder="Текст отзыва"></textarea>
+                            <textarea class="form__input-textarea" placeholder="Мне понравилось"></textarea>
                         </lable>
                     </div>
-
                     <div class="form__row-btns clearfix">
-                        
                         <div class="form__controls">
-                            
-
                             <div class="form__controls-btns">
                             <div class="form__controls-title">Отображать фото в отзыве?</div>
                                 <label class="form__radio">
@@ -166,19 +171,12 @@
                             </div>
                         </div>
                     </div>
-
-                </div>        
+                </form>        
             </main>
         </section>
     </div>
-    
-
-
-
-    <!-- FOOTER -->
     <footer class="footer">
         <div class="container clearfix">
-
             <div class="footer__col">
                 <div class="footer__info">
                 Сделано с любовью и старанием
@@ -191,7 +189,6 @@
                     <img src="img/icons/logo.png" alt="logo" class="logo__img">
                 </a>
             </div>
-
             <div class="footer__col">
                 <div class="socials">
                 <div class="socials__text">Наши социальные сети</div>
@@ -224,7 +221,6 @@
                 </ul>
                 </div>
             </div>
-
         </div>
     </footer>
 </body>
