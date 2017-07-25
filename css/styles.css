@@ -28,30 +28,18 @@ body {
 .container {
 	width: 100%;
 	height: 100%;
-	
 	position: absolute;
-
 	background-color: rgba( 255, 255, 255, .6);
-
-	/*
-	картинка 1920x1280. Cвойство ниже для того, что бы было похоже на 
-	макет. Если увеличить масштаб в блаузере, изображение, естественно, 
-	едет. Есть ли возможность задать правильный центр не обрезая картинку?
-	*/
-
 }
 
 .main-block {
 	height: 270px;
 	width: 207px;
-
-	/*центрируем блок*/
 	position: relative;
 	top: 50%;
 	margin-top: -135px;
 	left: 50%;
 	margin-left: -103px;
-
 	text-align: center;
 }
 
@@ -123,10 +111,6 @@ body {
     opacity: 1;
     transform: none;
   }
-}
-
-.fadeInUpBig {
-  ;
 }
 
 .main-block__logo {
